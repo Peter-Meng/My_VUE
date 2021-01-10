@@ -6,7 +6,7 @@ import store from "./store";
 Vue.config.productionTip = false;
 
 // CSS初始化
-import "./assets/reset.css";
+import "@/styles/index.less";
 // Element UI
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
